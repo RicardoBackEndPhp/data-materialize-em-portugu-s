@@ -2,7 +2,7 @@ $('.datepicker').pickadate({
     monthsFull: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
     monthsShort: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
     weekdaysFull: ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabádo'],
-    weekdaysShort: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'],
+    weekdaysShort: ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'],
     today: 'Hoje',
     clear: 'Limpar',
     close: 'Pronto',
@@ -11,5 +11,6 @@ $('.datepicker').pickadate({
     labelMonthSelect: 'Selecione um mês',
     labelYearSelect: 'Selecione um ano',
     selectMonths: true, 
-    selectYears: 15 
+    selectYears: 100,
+    format: 'dd/mm/yyyy'
 });
